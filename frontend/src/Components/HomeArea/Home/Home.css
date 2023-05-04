@@ -1,0 +1,16 @@
+
+  .Home{
+    
+    background-image: url(../../../Assests/pictures/grocery.jpeg); 
+    background-color:cadetblue;
+    background-repeat: no-repeat;
+    height: 600px;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center; 
+    color: rgb(13, 60, 30);
+    font-size: x-large;
+  }
+  .Home>{
+    
+  }

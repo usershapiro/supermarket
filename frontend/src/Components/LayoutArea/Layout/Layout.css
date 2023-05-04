@@ -1,0 +1,25 @@
+
+.Layout {
+    height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 15% ,80%, 5%;
+
+}
+.Layout > header{
+    grid-column: span 12;
+    grid-row: span 4;
+}
+
+ .Layout > footer {
+    grid-column: span 12;
+    grid-row: span 2 ;
+ }
+
+.Layout, .Layout > * {
+    /* border: 1px solid rgb(207, 61, 129); */
+}
+.Layout > main{
+    grid-column: span 12;
+    grid-row: span 6;
+}
